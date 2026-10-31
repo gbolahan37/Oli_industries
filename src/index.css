@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+  body { @apply bg-ivory font-sans font-light leading-relaxed text-charcoal; }
+  h1, h2, h3 { @apply font-serif font-medium leading-none text-choc; }
+  :focus-visible { outline: 2px solid #986442; outline-offset: 3px; }
+}
+
+@layer components {
+  .btn { @apply inline-block cursor-pointer border border-choc bg-choc px-7 py-4 text-xs font-medium uppercase tracking-[.18em] text-ivory no-underline transition-colors hover:border-cognac hover:bg-cognac disabled:opacity-50; }
+  .btn-ghost { @apply bg-transparent text-choc hover:bg-choc hover:text-ivory; }
+  .btn-light { @apply border-ivory bg-ivory text-choc hover:bg-transparent hover:text-ivory; }
+  .h2 { @apply text-[clamp(2rem,4.5vw,3.2rem)] uppercase tracking-[.04em]; }
+  .script { @apply font-script text-[clamp(2.2rem,5vw,3.4rem)] leading-none text-cognac; }
+  .icon-btn { @apply relative grid cursor-pointer place-items-center p-2.5 text-choc; }
+  .field { @apply border border-line bg-white px-3 py-2.5 text-sm font-light text-charcoal; }
+}
+
+.reveal { opacity: 0; transform: translateY(14px); transition: opacity .7s, transform .7s; }
+.reveal.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; transform: none; }
+}
