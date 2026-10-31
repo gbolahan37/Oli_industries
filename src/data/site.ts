@@ -1,12 +1,13 @@
 // Edit your brand details and main photos here.
 // Put image files in /public/images and reference them like "/images/workshop.jpg".
 export const site = {
-  brandName: 'MAISON', // placeholder: replace with your brand name
+  brandName: 'Oli Industry', // placeholder: replace with your brand name
   email: 'hello@example.com',
   location: 'Lagos, Nigeria',
-  instagramUrl: '', // paste your Instagram URL to enable the button
+  instagramUrl: 'https://www.instagram.com/oli.industries?vrfl=bWRvemVicWZxcXY4',
+  tiktok: 'https://www.tiktok.com/@oli.industries?_r=1&_t=ZS-99LbSUY7kRg.', // paste your TikTok URL to enable the button
   images: {
-    story: '', // e.g. '/images/workshop.jpg'
-    campaign: '', // e.g. '/images/leather-closeup.jpg'
+    story: '/images/leatherbag.webp', // e.g. '/images/workshop.jpg'
+    campaign: '/images/leatherbag.webp', // e.g. '/images/leather-closeup.jpg'
   },
 }

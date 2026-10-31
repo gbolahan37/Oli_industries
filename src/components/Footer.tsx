@@ -18,6 +18,7 @@ export default function Footer() {
             <a href={`mailto:${site.email}`} className={col}>{site.email}</a>
             <span className={col}>{site.location}</span>
             {site.instagramUrl && <a href={site.instagramUrl} className={col} target="_blank" rel="noopener noreferrer">Instagram</a>}
+            {site.tiktok && <a href={site.tiktok} className={col} target="_blank" rel="noopener noreferrer">Tiktok</a>}
           </div>
         </div>
         <div className="mt-11 border-t border-beige/25 pt-5 text-xs opacity-80">© 2026 {site.brandName}. All rights reserved. Brand name and contact details are placeholders.</div>
