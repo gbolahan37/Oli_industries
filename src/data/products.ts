@@ -13,7 +13,7 @@ export interface Product {
 
 // EDIT PRODUCTS HERE. Add `images` to use real photos; the second one shows on hover.
 export const products: Product[] = [
-  { id: 1, name: 'Aria Tote', category: 'Handbags', price: 185000, colors: ['#986442', '#422719', '#24201D'], kind: 'bag', order: 9, images: ['/images/cross-removebg-preview.png'] },
+  { id: 1, name: 'Aria Tote', category: 'Handbags', price: 185000, colors: ['#986442', '#422719', '#24201D'], kind: 'bag', order: 9, images: ['images/cross-removebg-preview.png'] },
   { id: 2, name: 'Lena Crossbody', category: 'Crossbody', price: 128000, colors: ['#986442', '#422719'], kind: 'cross', order: 8, images: ['/images/cross-removebg-preview.png'] },
   { id: 3, name: 'Noor Bifold Wallet', category: 'Wallets', price: 42000, colors: ['#422719', '#986442', '#24201D'], kind: 'wallet', order: 7, images: ['/images/cross-removebg-preview.png'] },
   { id: 4, name: 'Heritage Belt', category: 'Belts', price: 36000, colors: ['#422719', '#986442'], kind: 'belt', order: 6, images: ['/images/cross-removebg-preview.png'] },
