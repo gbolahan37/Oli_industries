@@ -18,9 +18,9 @@ export default function Hero() {
         <div className="relative aspect-square max-h-[640px] md:aspect-[4/5]" aria-hidden="true">
           <svg className="pointer-events-none absolute inset-0 opacity-[.14]" viewBox="0 0 200 250"><g fill="#422719"><path d="M100 250C96 180 90 120 60 40c40 30 52 100 40 210z" /><path d="M100 230c10-60 40-100 90-130-20 50-50 90-90 130z" /><path d="M100 200C60 170 20 150 0 100c40 10 80 50 100 100z" /></g></svg>
           {[
-            ['right-[2%] top-[2%] w-[62%]', '/images/leather_bad-removebg-preview.png', 'Handmade leather handbag'],
-            ['left-0 top-[44%] w-[42%]', '/images/leatherpurse-removebg-preview.png', 'Leather purse'],
-            ['bottom-0 right-[6%] w-[46%]', '/images/cross-removebg-preview.png', 'Leather crossbody bag'],
+            ['right-[2%] top-[2%] w-[62%]', 'images/leather_bad-removebg-preview.png', 'Handmade leather handbag'],
+            ['left-0 top-[44%] w-[42%]', 'images/leatherpurse-removebg-preview.png', 'Leather purse'],
+            ['bottom-0 right-[6%] w-[46%]', 'images/cross-removebg-preview.png', 'Leather crossbody bag'],
           ].map(([pos, image, description]) => (
             <div
               key={pos}
