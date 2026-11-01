@@ -36,7 +36,7 @@ export default function CartDrawer() {
         </div>
         <div className="mb-3 border-l-2 border-cognac bg-beige px-3 py-2.5 text-xs">Demo mode: Paystack is not connected, so no payment is taken and no order is placed.</div>
         <div className="my-3 flex justify-between font-serif text-2xl"><span>Total</span><span>{naira(total)}</span></div>
-        <button className="btn" disabled={!cart.length} onClick={() => notify('Demo mode: connect Paystack and a backend to take real orders.')}>Checkout (demo)</button>
+        <button className="btn" disabled={!cart.length} onClick={() => notify('Demo mode: connect Paystack and a backend to take real orders.')}>Checkout</button>
       </aside>
     </>
   )

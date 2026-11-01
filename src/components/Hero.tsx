@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="overflow-hidden bg-[radial-gradient(ellipse_at_80%_20%,#E6D7C6,transparent_60%)]">
       <div className="mx-auto grid max-w-[1200px] items-center gap-10 px-6 py-14 md:min-h-[min(86vh,760px)] md:grid-cols-[1.05fr_1fr]">
         <div>
-          <div className="mb-5 grid h-[54px] w-[54px] place-items-center rounded-full border border-cognac font-serif text-2xl text-cognac" aria-hidden="true"></div>
+          <img src="images/OLI_logo.png" alt="OLI Logo" className="mb-5 grid h-[54px] w-[54px] place-items-center rounded-full border border-cognac font-serif text-2xl text-cognac" aria-hidden="true" />
           <p className="mb-3.5 text-[.72rem] tracking-[.24em] text-cognac">HANDMADE WITH PASSION. CRAFTED TO LAST.</p>
           <h1 className="text-[clamp(3.4rem,10vw,7.4rem)] uppercase tracking-[.02em]">We’ve evolved.</h1>
           <p className="script mt-2">A new chapter begins for us.</p>

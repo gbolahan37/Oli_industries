@@ -7,7 +7,7 @@ export const site = {
   instagramUrl: 'https://www.instagram.com/oli.industries?vrfl=bWRvemVicWZxcXY4',
   tiktok: 'https://www.tiktok.com/@oli.industries?_r=1&_t=ZS-99LbSUY7kRg.', // paste your TikTok URL to enable the button
   images: {
-    story: 'images/leatherbag.webp', // e.g. '/images/workshop.jpg'
-    campaign: 'images/leatherbag.webp', // e.g. '/images/leather-closeup.jpg'
+    story: 'images/975381231873739749.jpg', // e.g. '/images/workshop.jpg'
+    campaign: 'images/banner.jpg', // e.g. '/images/leather-closeup.jpg'
   },
 }
